@@ -19,9 +19,9 @@ html {
     text-align: center;
 }  
 .prof-pic{
-  border-radius: 30%;
-  height: 200px;
-  height: 200px;
+    border-radius: 10%;
+    width: 200px;
+    height: 250px;;
 }
 
 h1 {
