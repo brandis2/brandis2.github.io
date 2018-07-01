@@ -57,7 +57,8 @@ p {
 }
 
 .nav_bar a{
-  
+color: #ffffff;
+  text-decoration: none;
 }
 
 .nav_bar a:hover {
