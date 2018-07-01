@@ -23,3 +23,9 @@ margin-top: 140px;
   height: 200px;
   height: 200px;
 }
+
+h1{
+     color: aliceblue;
+    font-weight: 100;
+    letter-spacing: 5;
+}
