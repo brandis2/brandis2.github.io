@@ -1,4 +1,4 @@
-body {
+html {
   background: url(../background.jpg);
   no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -9,14 +9,14 @@ body {
 }
 
 .prof-box {
-width: 800px;
-height: 400px;
-background: rgba(0,0,0,0.3);
-padding: 40px;
-color: white;
-margin: 0 auto;
-margin-top: 140px;
-  text-align: center;
+    width: 1200px;
+    height: 400px;
+    background: rgba(0,0,0,0.2);
+    padding: 40px;
+    color: white;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
 }  
 .prof-pic{
   border-radius: 30%;
