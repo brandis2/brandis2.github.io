@@ -48,7 +48,7 @@ p {
     margin: 0 auto;
     width: 1200;
     padding: 10px 40px 10px 40px;
-    border: 1px rgba(0,0,0,0.2);
+    /*border: 1px rgba(0,0,0,0.2);*/
     /* background: #000000; */
     color: white;
     text-align: center;
