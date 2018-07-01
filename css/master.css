@@ -24,8 +24,13 @@ margin-top: 140px;
   height: 200px;
 }
 
-h1{
+h1 {
      color: aliceblue;
     font-weight: 100;
     letter-spacing: 5;
+}
+
+p {
+    letter-spacing: 2;
+  font-weight: bolder;
 }
