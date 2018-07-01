@@ -62,9 +62,11 @@ color: #ffffff;
 }
 
 .nav_bar a:hover {
-  
+  color: #ffffff;
+  text-decoration: 
 }
 
 .footer {
+  text-align: center;
   
 }
