@@ -36,6 +36,10 @@ h5 {
 }
 
 .social-icons {
-  font-size: 60px;
+  font-size: 30px;
   color: white;
+}
+
+p {
+  font-size: larger;
 }
