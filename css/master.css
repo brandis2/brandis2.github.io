@@ -84,3 +84,8 @@ color: #ffffff;
   clear: both;
   display: table;
 }
+
+.cv-page {
+  text-align: right;
+  text-size: large;
+}
