@@ -86,6 +86,6 @@ color: #ffffff;
 }
 
 .cv-page {
-  text-align: right;
-  text-size: large;
+  text-align: left;
+  font-size: 25px;
 }
