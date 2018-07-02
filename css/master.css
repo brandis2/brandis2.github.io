@@ -9,7 +9,7 @@ html {
 
 .prof-box {
     width: 1200px;
-    height: 800px;
+    height: 740px;
     background: rgba(0,0,0,0.2);
     padding: 40px;
     color: white;
@@ -27,6 +27,7 @@ h1 {
      color: aliceblue;
     font-weight: 100;
     letter-spacing: 5;
+  text-align: center;
 }
 
 h5 {
@@ -91,5 +92,12 @@ color: #ffffff;
 }
 
 .news{
-  
+     width: 1200px;
+    height: 1000px;
+    background: rgba(0,0,0,0.2);
+    padding: 40px;
+    color: white;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: center; 
 }
