@@ -20,7 +20,7 @@ html {
 .prof-pic{
     border-radius: 10%;
     width: 200px;
-    height: 250px;;
+    height: 250px;
 }
 
 h1 {
@@ -88,4 +88,8 @@ color: #ffffff;
 .cv-page {
   text-align: left;
   font-size: 15px;
+}
+
+.news{
+  
 }
