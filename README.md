@@ -1,2 +1,2 @@
 # brandis2.github.io
-Professional website. 
+Professional website and portfolio. 
