@@ -4,9 +4,9 @@ title: "Curriculum Vitae"
 
 ### Education  
 
-| #### Doctor of Philosophy in Health and Medical Informatics 
-| *University of Illinois at Urbana-Champaign*  
-| 2021
+#### Doctor of Philosophy in Health and Medical Informatics 
+*University of Illinois at Urbana-Champaign*  
+2021
 
 #### Masters of Science in Mathematics 
 *Mississippi State University*  
