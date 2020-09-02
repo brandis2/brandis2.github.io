@@ -34,8 +34,8 @@ output: pdf_document
 
 ### Teaching Experience  
 
-##### Teaching Assistant – to Dr. Alexander Lipka, Applied Statistical Methods I  
-*University of Illinois at Urbana Champaign, FA 2019*  
+##### Teaching Assistant – to Dr. Alexander Lipka, Applied Statistical Methods I
+*University of Illinois at Urbana Champaign, FA 2019*
 
 * Review, discuss, and test students on statistical concepts including – descriptive statistics, probability, and statistical inferences – use of R and SAS
 
