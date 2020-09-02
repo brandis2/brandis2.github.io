@@ -1,5 +1,7 @@
 ---
-title: "Brandi P. Smith"
 ---
 
-Welcome! Please feel free to observe my recent projects, outreach events and my academic accomplishments. 
+I am currently a doctoral student at the [University of Illinois at Urbana-Champaign](https://illinois.edu) in the [Informatics](https://www.informatics.illinois.edu) program. My research focuses on understanding how phthalate exposure in menopausal women effects health outcomes. I plan to use "machine learning" approaches to tackle this issue. 
+
+This website is dedicated to showcasing my academic journey as well as my journey as a data scientist. 
+
