@@ -5,7 +5,7 @@ title: "Curriculum Vitae"
 ### Education  
 
 #### Doctor of Philosophy in Health and Medical Informatics 
-*University of Illinois at Urbana-Champaign*  
+*University of Illinois at Urbana-Champaign (UIUC)*  
 2021
 
 #### Masters of Science in Mathematics 
@@ -18,6 +18,17 @@ title: "Curriculum Vitae"
 
 ### Research Experience
 
+##### Research Assistant in Jodi Schneider Lab (UIUC), 2020  
+
+* Evaluation and optimization of systematic review tools using R, Python and SQL
+
+##### Data Analyst at Dow Agrosciences - Research Park (UIUC), 2017  
+
+* Analyzed gene expressions from toxicogenomics databases for drug development purposes using R and SQL
+
+##### Research Assistant	Zeynep Madak-Erdogan Lab (UIUC), 2016-19  
+
+* RNA sequence analysis – trim, map, align, read, and statistical analysis to identify differentially expressed genes using Linux and R
 
 ### Teaching Experience  
 
@@ -61,8 +72,44 @@ Ziegler, Yvonne, Mary J. Laws, Valeria Sanabria Guillen, Sung Hoon Kim, Parama D
 
 
 ### Honors
+**Top 30 Selected for Russell Sage Foundation Summer Institute in Social-Science Genomics** - 2019  
+
+**Early Career Forum Travel Award**, The Endocrine Society - 2019  
+
+**AACR Minority Scholar in Cancer Research Award**, American Association of Cancer Research (AACR) - 2018  
+
+**Interdisciplinary Environmental Toxicology Scholarship**, University of Illinois at Urbana-Champaign (UIUC) - 2018  
+
+**Selected for Purdue Intensive Summer Boot Camp for “Big Data Training for Translational Omics Research”**, Purdue University - 2018  
+
+**AACR-Bristol Myers Squibb Oncology Scholar-in-Training Award**, American Association of Cancer Research - 2018  
+
+**Future Leaders Advancing Research in Endocrinology (FLARE) Fellowship**, Endocrine Society - 2018  
+
+
+**Early Career Cancer Health Disparities Scholarships**, Cancer Disparities Research Network - 2017  
+
+**Carl Storm Underrepresented Minority (CSURM) Fellowship**, Gordon Research Conferences - 2017  
+
+**Endocrine Society Summer Research Fellowship**, Endocrine Society - 2017  
+
+
 
 ### Memberships
+**American Medical Informatics Association (AMIA)**, Member - 2018  
+
+**Future Leaders Advancing Research in Endocrinology (FLARE)**, Alumni - 2018  
+
+**Cancer Disparities Research Network	(CDRN)** -2017  
+
+**American Association of Cancer Research (AACR)**, Member - 2017  
+
+**Delta Sigma Theta Sorority, Inc., Education Committee, Technology Committee** - 2017  
+
+**Endocrine Society, Committee of Diversity and Inclusion Intern** - 2017  
+
+**Champaign County Medical Reserves Corps** - 2016  
+
 
 ### Skills
 * Bioinformatics  
