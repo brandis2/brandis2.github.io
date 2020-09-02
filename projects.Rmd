@@ -1,6 +1,6 @@
 ---
-title: "Data Science Projects"
 output: html_document
 ---
 
-### I have worked on a number of projects. Here are a few!
+## Data Visualization Project
+This project was conducted while completing a data mining specialization at Coursera. [GIS data visualzation project.]()

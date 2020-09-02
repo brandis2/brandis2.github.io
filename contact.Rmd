@@ -1,8 +1,8 @@
 ---
-
+title: "Contact"
 ---
 
 Feel free to contact me with any questions,
 thoughts, or concerns:
 
-bpsmith1992@gmail.com
+[Email](bpsmith1992@gmail.com)
