@@ -2,8 +2,9 @@
 ---
 
 <left>
-![](images/main.JPG){width=45%}
+![](images/main.JPG){width=35%}
 </left>  
 
-Hello! I am **Brandi Patrice Smith** and I am currently a doctoral student at the [University of Illinois at Urbana-Champaign](https://illinois.edu) in the [Informatics](https://www.informatics.illinois.edu) program. My research focuses on understanding how phthalate exposure in menopausal women effects health outcomes. I plan to use "machine learning" approaches to tackle this issue. This website is dedicated to showcasing my academic journey as well as my journey as a data scientist. My goal is to increase my data science skills alongside completing my dissertation over the next year. 
+Hello!  
+I am **Brandi Patrice Smith** and I am currently a doctoral student at the [University of Illinois at Urbana-Champaign](https://illinois.edu) in the [Informatics](https://www.informatics.illinois.edu) program. My research focuses on understanding how phthalate exposure in menopausal women effects health outcomes. I plan to use "machine learning" approaches to tackle this issue. This website is dedicated to showcasing my academic journey as well as my journey as a data scientist. My goal is to increase my data science skills alongside completing my dissertation over the next year. 
 
