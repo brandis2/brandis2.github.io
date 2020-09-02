@@ -1,6 +1,8 @@
 ---
 title: "Curriculum Vitae"
+output: pdf_document
 ---
+
 
 ### Education  
 
