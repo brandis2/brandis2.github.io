@@ -1,0 +1,21 @@
+name: "Brandi P. Smith"
+output_dir: "."
+navbar:
+  title: "Brandi P. Smith "
+  left:
+    - text: "Projects"
+      href: projects.html
+    - text: "Outreach"
+      href: outreach.html
+    - text: "CV"
+      href: CV.html
+
+  right:
+    - icon: fa-envelope fa-lg
+      href: contact.html
+    - icon: fa-github fa-lg
+      href: http://github.com/brandis2
+    - icon: fa-twitter fa-lg
+      href: https://twitter.com/brandipsmith92
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/brandi-patrice-smith-a7b9375b/
