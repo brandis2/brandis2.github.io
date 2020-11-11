@@ -1,6 +1,7 @@
 ---
 title: "Curriculum Vitae"
 output:
+  pdf_document: default
   html_document:
     df_print: paged
 ---
@@ -56,25 +57,29 @@ output:
 
 ### Publications  
 
+#### First Author Manuscripts:
 
-1. ##### [Combined Targeting of Estrogen Receptor Alpha and XPO1 Prevent Akt Activation, Remodel Metabolic Pathways and Induce Autophagy to Overcome Tamoxifen Resistance](https://doi.org/10.3390/cancers11040479)  
-Kulkoyluoglu-Cotul, Eylem, **Brandi Patrice Smith**, Kinga Wrobel, Yiru Chen Zhao, Karen Lee Ann Chen, Kadriye Hieronymi, Ozan Berk Imir, et al. “Combined Targeting of Estrogen Receptor Alpha and XPO1 Prevent Akt Activation, Remodel Metabolic Pathways and Induce Autophagy to Overcome Tamoxifen Resistance.” Cancers 11, no. 4 (April 4, 2019): 479.  
+1. #### [Identification of early liver toxicity gene biomarkers using comparative supervised machine learning.](https://doi.org/10.1038/s41598-020-76129-8) **Smith, B.P.**, Auvil, L.S., Welge, M. et al. Identification of early liver toxicity gene biomarkers using comparative supervised machine learning. Sci Rep 10, 19128 (2020). https://doi.org/10.1038/s41598-020-76129-8
 
-2. ##### [Free Fatty Acids Rewire Cancer Metabolism in Obesity-Associated Breast Cancer via Estrogen Receptor and MTOR Signaling](https://doi.org/10.1158/0008-5472.CAN-18-2849)  
-Madak-Erdogan, Zeynep, Shoham Band, Yiru Chen Zhao, **Brandi Patrice Smith**, Eylem Kulkoyluoglu-Cotul, Qianying Zuo, Ashlie Santaliz Casiano, et al. “Free Fatty Acids Rewire Cancer Metabolism in Obesity-Associated Breast Cancer via Estrogen Receptor and MTOR Signaling.” Cancer Research, March 12, 2019, canres.2849.2018. 
-
-3. ##### [Racial Differences in Lifestyle, Demographic, and Health Factors Associated with Quality of Life (QoL) in Midlife Women](https://doi.org/10.21203/rs.3.rs-45631/v1)  
+2. ##### [Racial Differences in Lifestyle, Demographic, and Health Factors Associated with Quality of Life (QoL) in Midlife Women](https://doi.org/10.21203/rs.3.rs-45631/v1)  
 **Smith, Brandi Patrice**, Esmeralda Cardoso-Mendoza, Jodi A. Flaws, Zeynep Madak-Erdogan, and Rebecca Lee Smith. “Racial Differences in Lifestyle, Demographic, and Health Factors Associated with Quality of Life (QoL) in Midlife Women.” Preprint. In Review, July 23, 2020.  
 
-4. ##### [A machine learning based approach to identify biomarkers of environmental toxicant exposures relevant to liver cancer disparities in rural Illinois](https://cancerres.aacrjournals.org/content/79/13_Supplement/5124.short)  
+3. ##### [A machine learning based approach to identify biomarkers of environmental toxicant exposures relevant to liver cancer disparities in rural Illinois](https://cancerres.aacrjournals.org/content/79/13_Supplement/5124.short)  
 **Brandi Smith**, Zeynep Madak-Erdogan. A machine learning based approach to identify biomarkers of environmental toxicant exposures relevant to liver cancer disparities in rural Illinois [abstract]. In: Proceedings of the American Association for Cancer Research Annual Meeting 2019; 2019 Mar 29-Apr 3; Atlanta, GA. Philadelphia (PA): AACR; Cancer Res 2019;79(13 Suppl):Abstract nr 5124.  
 
-5. ##### [Urban Neighborhood and Residential Factors Associated with Breast Cancer in African American Women: A Systematic Review](https://doi.org/10.1007/s12672-018-0325-x)  
+4. ##### [Urban Neighborhood and Residential Factors Associated with Breast Cancer in African American Women: A Systematic Review](https://doi.org/10.1007/s12672-018-0325-x)  
 **Smith, Brandi Patrice**, and Zeynep Madak-Erdogan. “Urban Neighborhood and Residential Factors Associated with Breast Cancer in African American Women: A Systematic Review.” Hormones and Cancer 9, no. 2 (April 2018): 71–81.  
 
-6. ##### [Suppression of FOXM1 Activities and Breast Cancer Growth in Vitro and in Vivo by a New Class of Compounds](https://doi.org/10.1038/s41523-019-0141-7)  
+### Co-Author Manuscripts:
+
+1. ##### [Suppression of FOXM1 Activities and Breast Cancer Growth in Vitro and in Vivo by a New Class of Compounds](https://doi.org/10.1038/s41523-019-0141-7)  
 Ziegler, Yvonne, Mary J. Laws, Valeria Sanabria Guillen, Sung Hoon Kim, Parama Dey, **Brandi P. Smith**, Ping Gong, et al. “Suppression of FOXM1 Activities and Breast Cancer Growth in Vitro and in Vivo by a New Class of Compounds.” Npj Breast Cancer 5, no. 1 (December 2019): 45.   
 
+2. ##### [Combined Targeting of Estrogen Receptor Alpha and XPO1 Prevent Akt Activation, Remodel Metabolic Pathways and Induce Autophagy to Overcome Tamoxifen Resistance](https://doi.org/10.3390/cancers11040479)  
+Kulkoyluoglu-Cotul, Eylem, **Brandi Patrice Smith**, Kinga Wrobel, Yiru Chen Zhao, Karen Lee Ann Chen, Kadriye Hieronymi, Ozan Berk Imir, et al. “Combined Targeting of Estrogen Receptor Alpha and XPO1 Prevent Akt Activation, Remodel Metabolic Pathways and Induce Autophagy to Overcome Tamoxifen Resistance.” Cancers 11, no. 4 (April 4, 2019): 479.  
+
+3. ##### [Free Fatty Acids Rewire Cancer Metabolism in Obesity-Associated Breast Cancer via Estrogen Receptor and MTOR Signaling](https://doi.org/10.1158/0008-5472.CAN-18-2849)  
+Madak-Erdogan, Zeynep, Shoham Band, Yiru Chen Zhao, **Brandi Patrice Smith**, Eylem Kulkoyluoglu-Cotul, Qianying Zuo, Ashlie Santaliz Casiano, et al. “Free Fatty Acids Rewire Cancer Metabolism in Obesity-Associated Breast Cancer via Estrogen Receptor and MTOR Signaling.” Cancer Research, March 12, 2019, canres.2849.2018. 
 
 ### Honors
 **Top 30 Selected for Russell Sage Foundation Summer Institute in Social-Science Genomics** - 2019  
