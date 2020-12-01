@@ -1,9 +1,27 @@
 ---
-title: "Curriculum Vitae"
+title: "CV"
+author: "Brandi Smith"
+email: bpsmith1992@gmail.com
 output:
-  pdf_document: default
   html_document:
     df_print: paged
+  pdf_document:
+    latex_engine: pdflatex
+    template: svm-latex-cv.tex
+fontfamily: mathpazo
+fontfamilyoptions: sc, osf
+fontsize: 11pt
+geometry: margin=1in
+github: brandis2
+jobtitle: PhD Candidate, University of Illinois at Urbana-Champaign
+keywords: R Markdown, academic CV, template
+linkcolor: black
+fontawesome: yes
+address: Illinois Informatics · 616 E. Green Street Suite 210 · Champaign, IL 61820
+twitter: brandipsmith92
+updated: yes
+urlcolor: blue
+web: brandi-smith.com
 ---
 
 [Downloadable pdf version](BPS_CV.pdf)
