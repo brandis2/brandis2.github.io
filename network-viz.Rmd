@@ -1,0 +1,28 @@
+---
+title: "Amazon Co-Purchasing Network Visualization"
+author: "Brandi P. Smith"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Project Description
+
+```{r upload}
+#set working directory to source of data file
+setwd("~/Downloads")
+#import dataset
+dat<-read.table("amazon0601.txt",header = T)
+#look at first few lines of data
+head(dat)
+```
+
+## Purpose
+
+## Results
+
+## Conclusions
+
+## References
