@@ -1,5 +1,5 @@
 ---
-title: "CV"
+title:
 author: "Brandi Smith"
 email: bpsmith1992@gmail.com
 output:
