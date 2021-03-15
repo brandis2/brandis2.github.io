@@ -13,3 +13,5 @@ Below is a list of resources (both free and out-of-pocket) for learning data sci
 1. Free course on pandas in python and data exploration: https://www.coursera.org/learn/exploratory-data-analysis-python-pandas/home/welcome
 
 2. Machine learning course by Andrew Ng (paid) : https://www.coursera.org/learn/machine-learning/home/welcome
+
+3. HackerRank Data Science Interview Preperation Kit: https://www.hackerrank.com/interview/interview-preparation-kit?h_l=domains&h_r=hrw&utm_source=hrwCandidateFeedback
