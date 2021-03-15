@@ -23,6 +23,7 @@ updated: yes
 urlcolor: blue
 web: brandi-smith.com
 ---
+## *Curriculum Vitae*
 
 [Downloadable pdf version](BPS_CV.pdf)
 
@@ -77,10 +78,12 @@ web: brandi-smith.com
 
 #### First Author Manuscripts:
 
-1. ##### [Racial Differences in Lifestyle, Demographic, and Health Factors Associated with Quality of Life (QoL) in Midlife Women](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7788772/)  **Smith, Brandi Patrice**, Cardoso-Mendoza E, Flaws JA, Madak-Erdogan Z, Smith RL. Racial differences in lifestyle, demographic, and health factors associated with quality of life (QoL) in midlife women. Womens Midlife Health. 2021;7(1):2. Published 2021 Jan 6. doi:10.1186/s40695-020-00060-1  
+1. ##### [Racial Differences in Lifestyle, Demographic, and Health Factors Associated with Quality of Life (QoL) in Midlife Women](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7788772/)  
+**Smith, Brandi Patrice**, Cardoso-Mendoza E, Flaws JA, Madak-Erdogan Z, Smith RL. Racial differences in lifestyle, demographic, and health factors associated with quality of life (QoL) in midlife women. Womens Midlife Health. 2021;7(1):2. Published 2021 Jan 6. doi:10.1186/s40695-020-00060-1  
 
 
-2. ##### [Identification of early liver toxicity gene biomarkers using comparative supervised machine learning.](https://doi.org/10.1038/s41598-020-76129-8) **Smith, B.P.**, Auvil, L.S., Welge, M. et al. Identification of early liver toxicity gene biomarkers using comparative supervised machine learning. Sci Rep 10, 19128 (2020). https://doi.org/10.1038/s41598-020-76129-8
+2. ##### [Identification of early liver toxicity gene biomarkers using comparative supervised machine learning.](https://doi.org/10.1038/s41598-020-76129-8) 
+**Smith, B.P.**, Auvil, L.S., Welge, M. et al. Identification of early liver toxicity gene biomarkers using comparative supervised machine learning. Sci Rep 10, 19128 (2020). https://doi.org/10.1038/s41598-020-76129-8
 
 3. ##### [A machine learning based approach to identify biomarkers of environmental toxicant exposures relevant to liver cancer disparities in rural Illinois](https://cancerres.aacrjournals.org/content/79/13_Supplement/5124.short)  
 **Brandi Smith**, Zeynep Madak-Erdogan. A machine learning based approach to identify biomarkers of environmental toxicant exposures relevant to liver cancer disparities in rural Illinois [abstract]. In: Proceedings of the American Association for Cancer Research Annual Meeting 2019; 2019 Mar 29-Apr 3; Atlanta, GA. Philadelphia (PA): AACR; Cancer Res 2019;79(13 Suppl):Abstract nr 5124.  
