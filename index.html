@@ -22,8 +22,19 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -323,7 +334,13 @@ $(document).ready(function () {
 
 <p><left> <img src="images/main.jpg" style="width:35.0%" /> </left></p>
 <p>Hello!<br />
-I am <strong>Brandi Patrice Smith</strong> and I am currently a doctoral student at the <a href="https://illinois.edu">University of Illinois at Urbana-Champaign</a> in the <a href="https://www.informatics.illinois.edu">Informatics</a> program. My research focuses on understanding how phthalate exposure in menopausal women effects health outcomes. I plan to use “machine learning” approaches to tackle this issue. This website is dedicated to showcasing my academic journey as well as my journey as a data scientist. My goal is to increase my data science skills alongside completing my dissertation over the next year.</p>
+I am <strong>Brandi Patrice Smith</strong> and I am currently a doctoral candidate at the <a href="https://illinois.edu">University of Illinois at Urbana-Champaign</a> in the <a href="https://www.informatics.illinois.edu">Informatics</a> program and a member of the <a href="https://vetmed.illinois.edu/mdci/lab-team/">Modeling for Disease Control Improvement lab</a>. My research focuses on understanding how phthalate exposure in menopausal women effects health outcomes. I plan to use “machine learning” approaches to tackle this issue. This website is dedicated to showcasing my academic journey as well as my journey as a data scientist. My goal is to increase my data science skills alongside completing my dissertation over the next year.</p>
+<p>Below is a list of resources (both free and out-of-pocket) for learning data science topics:</p>
+<ol style="list-style-type: decimal">
+<li><p>Free course on pandas in python and data exploration: <a href="https://www.coursera.org/learn/exploratory-data-analysis-python-pandas/home/welcome" class="uri">https://www.coursera.org/learn/exploratory-data-analysis-python-pandas/home/welcome</a></p></li>
+<li><p>Machine learning course by Andrew Ng (paid) : <a href="https://www.coursera.org/learn/machine-learning/home/welcome" class="uri">https://www.coursera.org/learn/machine-learning/home/welcome</a></p></li>
+<li><p>HackerRank Data Science Interview Preperation Kit: <a href="https://www.hackerrank.com/interview/interview-preparation-kit?h_l=domains&amp;h_r=hrw&amp;utm_source=hrwCandidateFeedback" class="uri">https://www.hackerrank.com/interview/interview-preparation-kit?h_l=domains&amp;h_r=hrw&amp;utm_source=hrwCandidateFeedback</a></p></li>
+</ol>
 
 
 
@@ -334,7 +351,7 @@ I am <strong>Brandi Patrice Smith</strong> and I am currently a doctoral student
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();

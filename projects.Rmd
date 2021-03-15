@@ -5,6 +5,6 @@ output: html_document
 ## Data Visualization Project
 These projects were conducted while completing a data mining specialization at Coursera. Data visualization is an essential and foundational step in understanding data - especially since most people are visual learners. The projects were well thought out and are meant to be clear enough for a young high school student to understand. Enjoy! 
 
-[GIS data visualzation project](GIS-dataviz copy.html)
+
 
  

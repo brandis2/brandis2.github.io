@@ -1,6 +1,6 @@
 ---
 title:
-author: "Brandi Smith"
+author: "Brandi Patrice Smith"
 email: bpsmith1992@gmail.com
 output:
   html_document:
@@ -77,10 +77,10 @@ web: brandi-smith.com
 
 #### First Author Manuscripts:
 
-1. #### [Identification of early liver toxicity gene biomarkers using comparative supervised machine learning.](https://doi.org/10.1038/s41598-020-76129-8) **Smith, B.P.**, Auvil, L.S., Welge, M. et al. Identification of early liver toxicity gene biomarkers using comparative supervised machine learning. Sci Rep 10, 19128 (2020). https://doi.org/10.1038/s41598-020-76129-8
+1. ##### [Racial Differences in Lifestyle, Demographic, and Health Factors Associated with Quality of Life (QoL) in Midlife Women](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7788772/)  **Smith, Brandi Patrice**, Cardoso-Mendoza E, Flaws JA, Madak-Erdogan Z, Smith RL. Racial differences in lifestyle, demographic, and health factors associated with quality of life (QoL) in midlife women. Womens Midlife Health. 2021;7(1):2. Published 2021 Jan 6. doi:10.1186/s40695-020-00060-1  
 
-2. ##### [Racial Differences in Lifestyle, Demographic, and Health Factors Associated with Quality of Life (QoL) in Midlife Women](https://doi.org/10.21203/rs.3.rs-45631/v1)  
-**Smith, Brandi Patrice**, Esmeralda Cardoso-Mendoza, Jodi A. Flaws, Zeynep Madak-Erdogan, and Rebecca Lee Smith. “Racial Differences in Lifestyle, Demographic, and Health Factors Associated with Quality of Life (QoL) in Midlife Women.” Preprint. In Review, July 23, 2020.  
+
+2. ##### [Identification of early liver toxicity gene biomarkers using comparative supervised machine learning.](https://doi.org/10.1038/s41598-020-76129-8) **Smith, B.P.**, Auvil, L.S., Welge, M. et al. Identification of early liver toxicity gene biomarkers using comparative supervised machine learning. Sci Rep 10, 19128 (2020). https://doi.org/10.1038/s41598-020-76129-8
 
 3. ##### [A machine learning based approach to identify biomarkers of environmental toxicant exposures relevant to liver cancer disparities in rural Illinois](https://cancerres.aacrjournals.org/content/79/13_Supplement/5124.short)  
 **Brandi Smith**, Zeynep Madak-Erdogan. A machine learning based approach to identify biomarkers of environmental toxicant exposures relevant to liver cancer disparities in rural Illinois [abstract]. In: Proceedings of the American Association for Cancer Research Annual Meeting 2019; 2019 Mar 29-Apr 3; Atlanta, GA. Philadelphia (PA): AACR; Cancer Res 2019;79(13 Suppl):Abstract nr 5124.  
@@ -88,7 +88,7 @@ web: brandi-smith.com
 4. ##### [Urban Neighborhood and Residential Factors Associated with Breast Cancer in African American Women: A Systematic Review](https://doi.org/10.1007/s12672-018-0325-x)  
 **Smith, Brandi Patrice**, and Zeynep Madak-Erdogan. “Urban Neighborhood and Residential Factors Associated with Breast Cancer in African American Women: A Systematic Review.” Hormones and Cancer 9, no. 2 (April 2018): 71–81.  
 
-### Co-Author Manuscripts:
+### Co-Authored Manuscripts:
 
 1. ##### [Suppression of FOXM1 Activities and Breast Cancer Growth in Vitro and in Vivo by a New Class of Compounds](https://doi.org/10.1038/s41523-019-0141-7)  
 Ziegler, Yvonne, Mary J. Laws, Valeria Sanabria Guillen, Sung Hoon Kim, Parama Dey, **Brandi P. Smith**, Ping Gong, et al. “Suppression of FOXM1 Activities and Breast Cancer Growth in Vitro and in Vivo by a New Class of Compounds.” Npj Breast Cancer 5, no. 1 (December 2019): 45.   
