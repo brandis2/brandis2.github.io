@@ -1,19 +1,35 @@
 ---
-title: "Outreach"
+title: "Public Talks/Presentations"
 ---
+***
+##  
+### Constance G. Bland Women in Science and Technology Conference (WIST) 2022: Women Standing Together Breaking Barriers in STEM
+#### April 8, 2022
+
+I was so honored to give a talk at the 2022 WIST Conference. The conference is now held in honor of one my first mentors, Dr. Constance G. Bland. I gave a presentation on the ["Non-linear Routes to Success"](https://docs.google.com/presentation/d/1lMx_M6BWkp7-2CIIpaegwAefosd5fCp8g6I2r4c_4o4/edit?usp=sharing). Going from attendee to presenter was one of the most rewarding things that I have witnessed in academic career!
+
+
+
+
+##  
 ### Healthy Environment and Endocrine Disruptor Strategies (HEEDS) Young EDC Scientists Showcase (YESS)
 #### November 2020
 
+##  
 The [YESS webinar series](https://www.healthandenvironment.org/our-work/webinars/heeds-young-edc-scientists-showcase-(yess)) features speakers who are in early career stages and who study endocrine disrupting chemicals or EDCs. I was invited to speak for the series topic on *Racial/Ethnic Differences in EDC Exposures*. My topic was on the *Effects of Phthalate Exposure and Health Dispairities on Reproductive Health*. The talk can be accessed [here](https://www.youtube.com/watch?v=KEb64xjsQUk&feature=emb_logo). [PDF Version of Presentation Here.](YESS presentation.pdf)
+
+##  
 
 <center>
 ![](wordcloud.png){width=40%}
 </center>
-
+##  
 ### MCIS Lunch and Learn Series at Mississippi Valley State University (MVSU)
 #### September 2018
-
-This event allows MVSU alumni of the [Mathematics, Computer, and Information Science Department](http://mcis.mvsu.edu) to return to the university and share their post-bac experiences with current apsiring undergraduate students.
+##  
+This event allows MVSU alumni of the [Mathematics, Computer, and Information Science Department](http://mcis.mvsu.edu) to return to the university and share their post-bac experiences with current aspiring undergraduate students.
 <center>
 ![](images/lunchlearn/P1070364.JPG){width=30%}![](images/lunchlearn/P1070366.JPG){width=30%}![](images/lunchlearn/P1070367.JPG){width=30%}![](images/lunchlearn/P1070370.JPG){width=30%}
 </center>
+
+***

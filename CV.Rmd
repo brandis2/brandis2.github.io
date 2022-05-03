@@ -1,7 +1,7 @@
 ---
-title:
-author: "Brandi Patrice Smith"
-email: bpsmith1992@gmail.com
+title: Curriculum Vitae
+author: "Brandi Patrice Smith, PhD, MS"
+email: "bsmith15@cdc.gov"
 output:
   html_document:
     df_print: paged
@@ -13,20 +13,18 @@ fontfamilyoptions: sc, osf
 fontsize: 11pt
 geometry: margin=1in
 github: brandis2
-jobtitle: PhD Candidate, University of Illinois at Urbana-Champaign
+jobtitle: Prevention Effectiveness Fellow
 keywords: R Markdown, academic CV, template
 linkcolor: black
 fontawesome: yes
-address: Illinois Informatics · 616 E. Green Street Suite 210 · Champaign, IL 61820
+address: Atlanta, GA 30038
 twitter: brandipsmith92
 updated: yes
 urlcolor: blue
 web: brandi-smith.com
 ---
-## *Curriculum Vitae*
 
-[Downloadable pdf version](BPS_CV.pdf)
-
+***
 ### Education  
 
 #### Doctor of Philosophy in Health and Medical Informatics 
@@ -43,7 +41,18 @@ web: brandi-smith.com
 
 ### Research Experience
 
-##### Research Assistant in Jodi Schneider Lab (UIUC), 2020  
+##### Steven M. Teutsch Prevention Effectivenss Fellow | Public Health & Analytics Modeling Track, Centers for Diesease Control and Prevention 2021 -   
+
+* Assist with data science projects within the National Center of Injury Prevention and Control (NCIPC)
+
+
+##### Research Assistant in Rebecca Lee Smith's Lab (UIUC), 2019 - 2021  
+
+* Evaluated data from the Midlife Womens Health Study  
+* Compared statistical learning models for phthalate exposure analysis 
+* Determined racial differences in factors related to health and demographics and its effects on menopausal quality of life  
+
+##### Research Assistant in Jodi Schneider's Lab (UIUC), 2020  
 
 * Evaluation and optimization of systematic review tools using R, Python and SQL
 
@@ -51,7 +60,7 @@ web: brandi-smith.com
 
 * Analyzed gene expressions from toxicogenomics databases for drug development purposes using R and SQL
 
-##### Research Assistant	Zeynep Madak-Erdogan Lab (UIUC), 2016-19  
+##### Research Assistant in	Zeynep Madak-Erdogan's Lab (UIUC), 2016 - 2019  
 
 * RNA sequence analysis – trim, map, align, read, and statistical analysis to identify differentially expressed genes using Linux and R
 
@@ -150,3 +159,5 @@ Madak-Erdogan, Zeynep, Shoham Band, Yiru Chen Zhao, **Brandi Patrice Smith**, Ey
 * R Statistical Language  
 * Python
 * SQL
+
+***

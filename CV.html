@@ -9,24 +9,32 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-<meta name="author" content="Brandi Patrice Smith" />
+<meta name="author" content="Brandi Patrice Smith, PhD, MS" />
 
 
-<title>CV.utf8</title>
+<title>Curriculum Vitae</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.5.1/jquery-3.5.1.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet" />
 <script src="site_libs/pagedtable-1.1/js/pagedtable.js"></script>
-<link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
-<script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
@@ -40,11 +48,6 @@
     </style>
 
 <style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -57,33 +60,10 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
 
+
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
 
 
 
@@ -92,10 +72,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -112,40 +88,16 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 51px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -173,7 +125,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -185,7 +137,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -196,10 +148,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -211,7 +176,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -275,26 +239,23 @@ $(document).ready(function () {
 
 
 
-<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Brandi P. Smith </a>
+      <a class="navbar-brand" href="index.html">Home </a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="projects.html">Projects</a>
+  <a href="outreach.html">Public Talks</a>
 </li>
 <li>
-  <a href="outreach.html">Outreach</a>
-</li>
-<li>
-  <a href="CV.html">CV</a>
+  <a href="CV.html">Curriculum Vitae</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -317,7 +278,7 @@ $(document).ready(function () {
   </a>
 </li>
 <li>
-  <a href="https://www.linkedin.com/in/brandi-patrice-smith-a7b9375b/">
+  <a href="https://www.linkedin.com/in/brandi-patrice-smith-phd-a7b9375b/">
     <span class="fa fa-linkedin fa-lg"></span>
      
   </a>
@@ -327,17 +288,17 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
+<h1 class="title toc-ignore">Curriculum Vitae</h1>
+<h4 class="author">Brandi Patrice Smith, PhD, MS</h4>
 
 </div>
 
 
-<div id="curriculum-vitae" class="section level2">
-<h2><em>Curriculum Vitae</em></h2>
-<p><a href="BPS_CV.pdf">Downloadable pdf version</a></p>
+<hr />
 <div id="education" class="section level3">
 <h3>Education</h3>
 <div id="doctor-of-philosophy-in-health-and-medical-informatics" class="section level4">
@@ -358,8 +319,23 @@ $(document).ready(function () {
 </div>
 <div id="research-experience" class="section level3">
 <h3>Research Experience</h3>
-<div id="research-assistant-in-jodi-schneider-lab-uiuc-2020" class="section level5">
-<h5>Research Assistant in Jodi Schneider Lab (UIUC), 2020</h5>
+<div id="steven-m.-teutsch-prevention-effectivenss-fellow-public-health-analytics-modeling-track-centers-for-diesease-control-and-prevention-2021--" class="section level5">
+<h5>Steven M. Teutsch Prevention Effectivenss Fellow | Public Health &amp; Analytics Modeling Track, Centers for Diesease Control and Prevention 2021 -</h5>
+<ul>
+<li>Assist with data science projects within the National Center of Injury Prevention and Control (NCIPC)</li>
+</ul>
+</div>
+<div id="research-assistant-in-rebecca-lee-smiths-lab-uiuc-2019---2021" class="section level5">
+<h5>Research Assistant in Rebecca Lee Smith’s Lab (UIUC), 2019 - 2021</h5>
+<ul>
+<li>Evaluated data from the Midlife Womens Health Study<br />
+</li>
+<li>Compared statistical learning models for phthalate exposure analysis</li>
+<li>Determined racial differences in factors related to health and demographics and its effects on menopausal quality of life</li>
+</ul>
+</div>
+<div id="research-assistant-in-jodi-schneiders-lab-uiuc-2020" class="section level5">
+<h5>Research Assistant in Jodi Schneider’s Lab (UIUC), 2020</h5>
 <ul>
 <li>Evaluation and optimization of systematic review tools using R, Python and SQL</li>
 </ul>
@@ -370,8 +346,8 @@ $(document).ready(function () {
 <li>Analyzed gene expressions from toxicogenomics databases for drug development purposes using R and SQL</li>
 </ul>
 </div>
-<div id="research-assistant-zeynep-madak-erdogan-lab-uiuc-2016-19" class="section level5">
-<h5>Research Assistant Zeynep Madak-Erdogan Lab (UIUC), 2016-19</h5>
+<div id="research-assistant-in-zeynep-madak-erdogans-lab-uiuc-2016---2019" class="section level5">
+<h5>Research Assistant in Zeynep Madak-Erdogan’s Lab (UIUC), 2016 - 2019</h5>
 <ul>
 <li>RNA sequence analysis – trim, map, align, read, and statistical analysis to identify differentially expressed genes using Linux and R</li>
 </ul>
@@ -379,7 +355,7 @@ $(document).ready(function () {
 </div>
 <div id="teaching-experience" class="section level3">
 <h3>Teaching Experience</h3>
-<div id="teaching-assistant-to-dr.alexander-lipka-applied-statistical-methods-i" class="section level5">
+<div id="teaching-assistant-to-dr.-alexander-lipka-applied-statistical-methods-i" class="section level5">
 <h5>Teaching Assistant – to Dr. Alexander Lipka, Applied Statistical Methods I</h5>
 <p><em>University of Illinois at Urbana Champaign, FA 2019</em></p>
 <ul>
@@ -423,11 +399,11 @@ $(document).ready(function () {
 <h3>Co-Authored Manuscripts:</h3>
 <ol style="list-style-type: decimal">
 <li><h5 id="suppression-of-foxm1-activities-and-breast-cancer-growth-in-vitro-and-in-vivo-by-a-new-class-of-compounds"><a href="https://doi.org/10.1038/s41523-019-0141-7">Suppression of FOXM1 Activities and Breast Cancer Growth in Vitro and in Vivo by a New Class of Compounds</a></h5>
-<p>Ziegler, Yvonne, Mary J. Laws, Valeria Sanabria Guillen, Sung Hoon Kim, Parama Dey, <strong>Brandi P. Smith</strong>, Ping Gong, et al. “Suppression of FOXM1 Activities and Breast Cancer Growth in Vitro and in Vivo by a New Class of Compounds.” Npj Breast Cancer 5, no. 1 (December 2019): 45.</p></li>
+<p>Ziegler, Yvonne, Mary J. Laws, Valeria Sanabria Guillen, Sung Hoon Kim, Parama Dey, <strong>Brandi P. Smith</strong>, Ping Gong, et al. “Suppression of FOXM1 Activities and Breast Cancer Growth in Vitro and in Vivo by a New Class of Compounds.” Npj Breast Cancer 5, no. 1 (December 2019): 45.</p></li>
 <li><h5 id="combined-targeting-of-estrogen-receptor-alpha-and-xpo1-prevent-akt-activation-remodel-metabolic-pathways-and-induce-autophagy-to-overcome-tamoxifen-resistance"><a href="https://doi.org/10.3390/cancers11040479">Combined Targeting of Estrogen Receptor Alpha and XPO1 Prevent Akt Activation, Remodel Metabolic Pathways and Induce Autophagy to Overcome Tamoxifen Resistance</a></h5>
-<p>Kulkoyluoglu-Cotul, Eylem, <strong>Brandi Patrice Smith</strong>, Kinga Wrobel, Yiru Chen Zhao, Karen Lee Ann Chen, Kadriye Hieronymi, Ozan Berk Imir, et al. “Combined Targeting of Estrogen Receptor Alpha and XPO1 Prevent Akt Activation, Remodel Metabolic Pathways and Induce Autophagy to Overcome Tamoxifen Resistance.” Cancers 11, no. 4 (April 4, 2019): 479.</p></li>
+<p>Kulkoyluoglu-Cotul, Eylem, <strong>Brandi Patrice Smith</strong>, Kinga Wrobel, Yiru Chen Zhao, Karen Lee Ann Chen, Kadriye Hieronymi, Ozan Berk Imir, et al. “Combined Targeting of Estrogen Receptor Alpha and XPO1 Prevent Akt Activation, Remodel Metabolic Pathways and Induce Autophagy to Overcome Tamoxifen Resistance.” Cancers 11, no. 4 (April 4, 2019): 479.</p></li>
 <li><h5 id="free-fatty-acids-rewire-cancer-metabolism-in-obesity-associated-breast-cancer-via-estrogen-receptor-and-mtor-signaling"><a href="https://doi.org/10.1158/0008-5472.CAN-18-2849">Free Fatty Acids Rewire Cancer Metabolism in Obesity-Associated Breast Cancer via Estrogen Receptor and MTOR Signaling</a></h5>
-<p>Madak-Erdogan, Zeynep, Shoham Band, Yiru Chen Zhao, <strong>Brandi Patrice Smith</strong>, Eylem Kulkoyluoglu-Cotul, Qianying Zuo, Ashlie Santaliz Casiano, et al. “Free Fatty Acids Rewire Cancer Metabolism in Obesity-Associated Breast Cancer via Estrogen Receptor and MTOR Signaling.” Cancer Research, March 12, 2019, canres.2849.2018.</p></li>
+<p>Madak-Erdogan, Zeynep, Shoham Band, Yiru Chen Zhao, <strong>Brandi Patrice Smith</strong>, Eylem Kulkoyluoglu-Cotul, Qianying Zuo, Ashlie Santaliz Casiano, et al. “Free Fatty Acids Rewire Cancer Metabolism in Obesity-Associated Breast Cancer via Estrogen Receptor and MTOR Signaling.” Cancer Research, March 12, 2019, canres.2849.2018.</p></li>
 </ol>
 </div>
 <div id="honors" class="section level3">
@@ -467,9 +443,10 @@ $(document).ready(function () {
 <li>Python</li>
 <li>SQL</li>
 </ul>
-</div>
+<hr />
 </div>
 
+<p>Copyright &copy; Brandi Patrice Smith All rights reserved.</p>
 
 
 
@@ -497,7 +474,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>

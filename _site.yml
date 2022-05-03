@@ -1,13 +1,12 @@
 name: "Brandi P. Smith"
 output_dir: "."
 navbar:
-  title: "Brandi P. Smith "
+  title: "Home "
+  type: inverse
   left:
-    - text: "Projects"
-      href: projects.html
-    - text: "Outreach"
+    - text: "Public Talks"
       href: outreach.html
-    - text: "CV"
+    - text: "Curriculum Vitae"
       href: CV.html
 
   right:
@@ -18,4 +17,12 @@ navbar:
     - icon: fa-twitter fa-lg
       href: https://twitter.com/brandipsmith92
     - icon: fa-linkedin fa-lg
-      href: https://www.linkedin.com/in/brandi-patrice-smith-a7b9375b/
+      href: https://www.linkedin.com/in/brandi-patrice-smith-phd-a7b9375b/
+
+output:
+  html_document:
+    theme: journal
+    highlight: textmate
+    include:
+      after_body: footer.html
+    css: styles.css

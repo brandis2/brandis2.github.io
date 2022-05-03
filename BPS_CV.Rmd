@@ -1,7 +1,9 @@
 ---
 title: "Curriculum Vitae"
 author: "Brandi P. Smith"
-output: pdf_document
+output:
+  word_document: default
+  pdf_document: default
 ---
 
 ### Education  
